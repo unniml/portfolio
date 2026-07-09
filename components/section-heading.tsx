@@ -1,0 +1,7 @@
+import React from 'react'
+
+export default function SectionHeading({ children }: { children: React.ReactNode }) {
+  return (
+    <h2 className='font-medium text-3xl mb-4 capitalize text-center'>{children}</h2>
+  )
+}
