@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Unnikrishnan | Personal Portfolio",
   description:
-    "Unnikrishnan is a full stack developer with 8 years experience.",
+    "Unnikrishnan is a full stack wordpress developer with 8 years experience.",
 };
 
 export default function RootLayout({

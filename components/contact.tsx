@@ -55,7 +55,15 @@ export default function Contact() {
         action={formAction}
         
       >
-
+        <input
+          type="text"
+          name="name"
+          placeholder="Your name"
+          required
+          maxLength={100}
+          className="px-4 h-14 rounded-lg borderBlack "
+        />
+        <FieldError message={state.errors?.name} />
         <input
           type="email"
           name="email"

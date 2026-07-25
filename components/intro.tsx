@@ -31,11 +31,11 @@ export default function Intro() {
           >👋</motion.span>
         </div>
       </div>
-      <motion.h1 className='mt-4 mb-10 px-4 text-2xl sm:text-4xl font-medium !leading-[1.5] !sm:leading-[1.7]'
+      <motion.h1 className='mt-4 mb-10 px-4 text-xl sm:text-2xl font-medium !leading-[1.5] !sm:leading-[1.7]'
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hi, I'm Unnikrishnan</span>. I'm a <span className='font-bold'>full stack developer</span> with <span className='font-bold'>8 years</span> of experience. I enjoy building <span className='italic'>responsive web applications</span> and exploring <span className='italic'>new technologies</span>. My focus is <span className='underline'>React(Next.js) and Tailwind.</span>
+        Hi, I'm <span className='font-bold'>Unnikrishnan</span> — a <span className='font-bold'>Full Stack WordPress Developer</span> with <span className='font-bold'>25+ years</span> of web development experience. I build fast, scalable, and maintainable websites using <span className='font-bold'>WordPress, Next.js, TypeScript, and Tailwind CSS</span>. I specialize in custom WordPress development, headless WordPress architectures, and modern frontend experiences that are responsive, accessible, and built for long-term growth.
       </motion.h1>
 
       <motion.div className='flex flex-col items-center justify-center gap-4 sm:flex-row'
@@ -52,9 +52,9 @@ export default function Intro() {
 
         <a  className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack' href="/CV.pdf" download={true}>Download CV <HiDownload className='inline-block ml-1 opacity-65 group-hover:translate-y-1 transition' /></a>
 
-        <a href="https://www.linkedin.com/in/your-profile" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsLinkedin className='inline-block ml-1' /></a>
+        <a href="https://www.linkedin.com/in/unnikrishnan-m-l-18685110/" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsLinkedin className='inline-block ml-1' /></a>
 
-        <a href="https://www.linkedin.com/in/your-profile" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsGithub className='inline-block ml-1' /></a>
+        <a href="https://github.com/unniml" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsGithub className='inline-block ml-1' /></a>
       </motion.div>
     </ClientSectionObserver>
   )

@@ -7,7 +7,7 @@ export default function Footer() {
         &copy; {new Date().getFullYear()} Unnikrishnan. All rights reserved. 
       </small>
       <p className='text-xs'>
-        <span className='font-semibold'>Build with React &amp; Next.js, Typescript, Tailwind CSS, Framer Motion and hosted on Vercel. </span>
+        <span className='font-semibold'>Build with React &amp; Next.js, Typescript, Tailwind CSS, Framer Motion and hosted on Cloudflare. </span>
       </p>
     </footer>
   )

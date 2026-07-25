@@ -20,30 +20,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-4">
-        I am a <span className="font-medium">full stack developer</span> with{" "}
-        <span className="font-medium">8 years</span> of experience in reactive
-        technologies. I am a{" "}
-        <span className="font-medium">passionate full stack developer</span>{" "}
-        with a passion for building{" "}
-        <span className="italic">responsive web applications</span>. I enjoy
-        building <span className="italic">responsive web applications</span>.
-        With over 24 years of experience, I have honed my skills in various
-        technologies, focusing primarily on{" "}
-        <span className="font-medium">React (Next.js)</span> and{" "}
-        <span className="font-medium">Tailwind CSS</span>. I am proficient in
-        Wordpress, HTML, CSS, and JavaScript. I have a strong foundation in{" "}
-        <span className="font-medium">React (Next.js), TypeScript</span> and{" "}
-        <span className="font-medium">Tailwind CSS</span>. I enjoy exploring new
-        technologies and continuously improving my craft.
+       I&rsquo;m a <span className="font-medium">Full Stack WordPress Developer</span> with over 25 years of experience building websites and web applications. I specialize in <span className="font-medium">custom WordPress development</span>, <span className="font-medium">headless WordPress architectures</span>, and <span className="font-medium">modern frontend development</span> using <span className="font-medium">Next.js</span>, <span className="font-medium">TypeScript</span>, <span className="font-medium">Tailwind CSS</span>, and <span className="font-medium">Framer Motion</span>. I enjoy creating fast, scalable, and maintainable digital experiences, with a strong focus on clean code, performance, accessibility, and user experience. 
       </p>
       <p>
-        In my free time, I love to learn new programming languages, and stay
-        updated with the latest trends in{" "}
-        <span className="font-medium">web development</span>. I also enjoy
-        contributing to open source projects and helping others learn{" "}
-        <span className="font-medium">web development</span>. I believe in the
-        power of community and collaboration, and I am always eager to connect
-        with fellow developers.
+        I thrive on solving complex technical challenges and continuously expanding my skills by exploring new technologies and development practices. Whether I&rsquo;m building custom WordPress solutions, integrating APIs, or crafting interactive user interfaces, I&rsquo;m committed to delivering high-quality work that helps businesses achieve their goals.
       </p>
     </ClientSectionObserver>
   );

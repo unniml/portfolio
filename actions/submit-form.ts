@@ -6,6 +6,7 @@ const resend = new Resend(process.env.NEXT_PUBLIC_RESEND_API_KEY);
 
 type FormState = {
   errors?: {
+    name?: string;
     email?: string;
     message?: string;
     result?: string;
@@ -17,9 +18,14 @@ export async function submitForm(
   prevState: FormState,
   formData: FormData
 ): Promise<FormState> {
+  const name = formData.get("name") as string;
   const email = formData.get("email") as string;
   const message = formData.get("message") as string;
   const errors: FormState["errors"] = {};
+
+  if (!name || name.length < 2 || name.length > 100) {
+    errors.name = "Please enter a valid name.";
+  }
 
   if (
     !email ||

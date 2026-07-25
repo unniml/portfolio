@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
+import { FaWordpressSimple } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { LuCode } from "react-icons/lu";
+import indianMetalImg from "@/public/indian-metal-exchange.png";
+import ekathraImg from "@/public/ekathra-experiences.png";
+import futureImg from "@/public/future-outdoor-newzealand.png";
+import medconnectImg from "@/public/medconnect-telemedicine.png";
 
 export const links = [
   {
@@ -35,26 +38,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Senior Web Developer",
+    location: "RTWMatters Pty. Ltd., Australia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "I am working as a senior web developer for 16 years. My responsibilities included developing and maintaining websites, and ensuring the quality of the codebase.",
+    icon: React.createElement(LuCode),
+    date: "2010 - present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Wordpress Developer",
+    location: "RDWMedia, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I worked as a wordpress developer for 5 years and developed and maintained websites for various clients. My responsibilities included developing custom themes and plugins, and ensuring the quality of the codebase.",
+    icon: React.createElement(FaWordpressSimple),
+    date: "2021 - 2026",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Freelance",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
@@ -62,26 +65,33 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Indian Metal Exchange",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed and maintained a business platform serving the metal trading and industrial sector.",
+    tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WSForm"],
+    imageUrl: indianMetalImg,
   },
   {
-    title: "rmtDev",
+    title: "Ekathra Experiences",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed and maintained a tourism and travel experiences platform focused on showcasing curated travel packages and cultural experiences.",
+    tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WSForm"],
+    imageUrl: ekathraImg,
   },
   {
-    title: "Word Analytics",
+    title: "Future Outdoor New Zealand",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed and maintained a WooCommerce-powered website for a New Zealand-based company specializing in fencing, pergolas, carports,",
+    tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WooCommerce"],
+    imageUrl: futureImg,
   },
+  {
+    title: "MedConnect - Telemedicine Platform",
+    description:
+      "Developed and maintained a telemedicine platform for remote healthcare consultations.",
+    tags: ["React", "Next.js", "Supabase", "Tailwind", "ShadCN UI", "Prisma", "Clerk", "Stripe"],
+    imageUrl: medconnectImg,
+  }
 ] as const;
 
 export const skillsData = [
