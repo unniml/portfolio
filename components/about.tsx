@@ -22,8 +22,11 @@ export default function About() {
       <p className="mb-4">
        I&rsquo;m a <span className="font-medium">Full Stack WordPress Developer</span> with over 25 years of experience building websites and web applications. I specialize in <span className="font-medium">custom WordPress development</span>, <span className="font-medium">headless WordPress architectures</span>, and <span className="font-medium">modern frontend development</span> using <span className="font-medium">Next.js</span>, <span className="font-medium">TypeScript</span>, <span className="font-medium">Tailwind CSS</span>, and <span className="font-medium">Framer Motion</span>. I enjoy creating fast, scalable, and maintainable digital experiences, with a strong focus on clean code, performance, accessibility, and user experience. 
       </p>
-      <p>
+      <p className="mb-4">
         I thrive on solving complex technical challenges and continuously expanding my skills by exploring new technologies and development practices. Whether I&rsquo;m building custom WordPress solutions, integrating APIs, or crafting interactive user interfaces, I&rsquo;m committed to delivering high-quality work that helps businesses achieve their goals.
+      </p>
+      <p className="mb-4">
+        I believe successful projects are built through clear communication, thoughtful planning, and close collaboration. I enjoy working with designers, agencies, and business owners to transform ideas into reliable, user-friendly web solutions that are easy to manage and scale. Whether contributing to an existing product or building a project from the ground up, I take pride in writing maintainable code, meeting deadlines, and delivering solutions that provide long-term value.
       </p>
     </ClientSectionObserver>
   );

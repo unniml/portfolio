@@ -14,7 +14,7 @@ export default function Intro() {
 
   return (
     <ClientSectionObserver sectionName='Home' id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28'>
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center justify-center mb-4 sm:mb-10'>
         <div className='relative'>
           <motion.div 
             initial={{ opacity: 0, scale: 0 }}
