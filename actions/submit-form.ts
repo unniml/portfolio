@@ -52,7 +52,7 @@ export async function submitForm(
     to: "unniml@yahoo.com",
     replyTo: email,
     subject: "New message from contact form",
-    react: ContactFormEmail({ email, message }),
+    react: ContactFormEmail({ name, email, message }),
   });
 
   if (!res || res.error) {
