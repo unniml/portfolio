@@ -70,6 +70,7 @@ export const projectsData = [
       "Developed and maintained a business platform serving the metal trading and industrial sector.",
     tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WSForm"],
     imageUrl: indianMetalImg,
+    websiteUrl: "https://www.indianmetalexchange.in/",
   },
   {
     title: "Ekathra Experiences",
@@ -77,6 +78,7 @@ export const projectsData = [
       "Developed and maintained a tourism and travel experiences platform focused on showcasing curated travel packages and cultural experiences.",
     tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WSForm"],
     imageUrl: ekathraImg,
+    websiteUrl: "https://ekathraexperiences.com/",
   },
   {
     title: "Future Outdoor New Zealand",
@@ -84,6 +86,7 @@ export const projectsData = [
       "Developed and maintained a WooCommerce-powered website for a New Zealand-based company specializing in fencing, pergolas, carports,",
     tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WooCommerce"],
     imageUrl: futureImg,
+    websiteUrl: "https://futureoutdoor.co.nz/",
   },
   {
     title: "MedConnect - Telemedicine Platform",
@@ -91,6 +94,7 @@ export const projectsData = [
       "Developed and maintained a telemedicine platform for remote healthcare consultations.",
     tags: ["React", "Next.js", "Supabase", "Tailwind", "ShadCN UI", "Prisma", "Clerk", "Stripe"],
     imageUrl: medconnectImg,
+    websiteUrl: "https://doctor-app-gamma-ruby.vercel.app/",
   }
 ] as const;
 
