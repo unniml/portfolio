@@ -52,9 +52,9 @@ export default function Intro() {
 
         <a  className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack' href="/CV.pdf" download={true}>Download CV <HiDownload className='inline-block ml-1 opacity-65 group-hover:translate-y-1 transition' /></a>
 
-        <a href="https://www.linkedin.com/in/unnikrishnan-m-l-18685110/" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsLinkedin className='inline-block ml-1' /></a>
+        <a href="https://www.linkedin.com/in/unnikrishnan-m-l-18685110/" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank' aria-label="Visit my LinkedIn profile"><BsLinkedin className='inline-block ml-1' /></a>
 
-        <a href="https://github.com/unniml" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank'><BsGithub className='inline-block ml-1' /></a>
+        <a href="https://github.com/unniml" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank' aria-label="Visit my GitHub profile"><BsGithub className='inline-block ml-1' /></a>
       </motion.div>
     </ClientSectionObserver>
   )
