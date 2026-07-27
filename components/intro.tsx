@@ -21,7 +21,7 @@ export default function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.2 , type: 'tween' }}
           >
-            <Image src="/unni.jpg" alt="Unni's Photo" priority={true} width={96} height={96} className='h-24 w-24 object-cover rounded-full border-[0.35rem] border-white shadow-xl' />            
+            <Image src="/unni.jpg" alt="Unni's Photo" priority={true} width={96} height={96} sizes="96px" className='h-24 w-24 object-cover rounded-full border-[0.35rem] border-white shadow-xl' />            
           </motion.div>
 
           <motion.span className='text-4xl absolute -bottom-2 -right-2'
@@ -31,12 +31,15 @@ export default function Intro() {
           >👋</motion.span>
         </div>
       </div>
-      <motion.h1 className='mt-4 mb-10 px-4 text-xl sm:text-2xl font-medium !leading-[1.5] !sm:leading-[1.7]'
+      <h1 className='mt-4 mb-10 px-4 text-xl sm:text-2xl font-medium !leading-[1.5] !sm:leading-[1.7]'>
+        Full Stack WordPress Developer based in Kochi, India
+      </h1>
+      <motion.p className='px-4 text-base sm:text-lg !leading-[1.7]'
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       >
         Hi, I'm <span className='font-bold'>Unnikrishnan</span> — a <span className='font-bold'>Full Stack WordPress Developer</span> with <span className='font-bold'>25+ years</span> of web development experience. I build fast, scalable, and maintainable websites using <span className='font-bold'>WordPress, Next.js, TypeScript, and Tailwind CSS</span>. I specialize in custom WordPress development, headless WordPress architectures, and modern frontend experiences that are responsive, accessible, and built for long-term growth.
-      </motion.h1>
+      </motion.p>
 
       <motion.div className='flex flex-col items-center justify-center gap-4 sm:flex-row'
       initial={{ opacity: 0, y: 100 }}
@@ -52,9 +55,9 @@ export default function Intro() {
 
         <a  className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer borderBlack' href="/CV.pdf" download={true}>Download CV <HiDownload className='inline-block ml-1 opacity-65 group-hover:translate-y-1 transition' /></a>
 
-        <a href="https://www.linkedin.com/in/unnikrishnan-m-l-18685110/" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank' aria-label="Visit my LinkedIn profile"><BsLinkedin className='inline-block ml-1' /></a>
+        <a href="https://www.linkedin.com/in/unnikrishnan-m-l-18685110/" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack' target='_blank' rel="noopener noreferrer" aria-label="Visit my LinkedIn profile"><BsLinkedin className='inline-block ml-1' /></a>
 
-        <a href="https://github.com/unniml" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank' aria-label="Visit my GitHub profile"><BsGithub className='inline-block ml-1' /></a>
+        <a href="https://github.com/unniml" className='bg-white p-4 py-3 flex items-center gap-2 rounded-full text-gray-700 focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack' target='_blank' rel="noopener noreferrer" aria-label="Visit my GitHub profile"><BsGithub className='inline-block ml-1' /></a>
       </motion.div>
     </ClientSectionObserver>
   )
