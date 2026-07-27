@@ -35,7 +35,7 @@ console.log(websiteUrl);
       <Link href={websiteUrl} target="_blank" className="absolute inset-0 z-10" aria-label={`Visit ${title}'s website`}>
         <Image
           src={imageUrl.src}
-          alt="Project I worked on"
+          alt={`${title} project screenshot`}
           quality={95}
           width={452}
           height={500}
