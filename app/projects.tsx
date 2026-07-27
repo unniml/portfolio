@@ -3,26 +3,6 @@ import React from 'react'
 import { projectsData } from '@/lib/data'
 import Project from '@/components/project'
 import dynamic from 'next/dynamic'
-import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: "Projects | Unnikrishnan",
-  description:
-    "Explore web development projects by Unnikrishnan, including WordPress sites, WooCommerce stores, and a Next.js telemedicine platform.",
-  openGraph: {
-    title: "Projects — Unnikrishnan",
-    description:
-      "Web development projects including WordPress, WooCommerce, and Next.js applications.",
-  },
-  twitter: {
-    title: "Projects — Unnikrishnan",
-    description:
-      "Web development projects including WordPress, WooCommerce, and Next.js applications.",
-  },
-  alternates: {
-    canonical: "/#projects",
-  },
-}
 
 const ClientSectionObserver = dynamic(
   () => import('@/components/section-view'),

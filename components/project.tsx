@@ -16,7 +16,7 @@ export default function Project({
   websiteUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
-console.log(websiteUrl);
+
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
@@ -32,13 +32,14 @@ console.log(websiteUrl);
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section className=" bg-gray-100 max-w-[42rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative sm:h-[20rem] group-even:pl-8 hover:bg-gray-50 transition">
-      <Link href={websiteUrl} target="_blank" className="absolute inset-0 z-10" aria-label={`Visit ${title}'s website`}>
+      <Link href={websiteUrl} target="_blank" rel="noopener noreferrer" className="absolute inset-0 z-10" aria-label={`Visit ${title}'s website`}>
         <Image
           src={imageUrl.src}
           alt={`${title} project screenshot`}
           quality={95}
           width={452}
           height={500}
+          sizes="(max-width: 640px) 100vw, 28.25rem"
           className="sm:absolute sm:top-8 sm:-right-40 sm:w-[28.25rem] sm:rounded-t-lg sm:shadow-2xl sm:group-even:right-[initial] sm:group-even:-left-40 sm:group-hover:-translate-x-3 sm:group-hover:translate-y-3 sm:group-hover:-rotate-2 sm:group-hover:scale-[1.04] sm:transition sm:group-even:group-hover:translate-x-3 sm:group-even:group-hover:translate-y-3 sm:group-even:group-hover:rotate-2 w-full h-48 object-cover"
         />
       </Link>

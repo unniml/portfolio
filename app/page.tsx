@@ -16,6 +16,7 @@ const jsonLd = {
     "https://www.linkedin.com/in/unnikrishnan-m-l-18685110/",
     "https://github.com/unniml",
   ],
+  image: "https://unnikrishnantech.com/unni.jpg",
   knowsAbout: [
     "WordPress",
     "Next.js",

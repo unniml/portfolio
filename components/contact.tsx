@@ -59,6 +59,7 @@ export default function Contact() {
           type="text"
           name="name"
           placeholder="Your name"
+          aria-label="Your name"
           required
           maxLength={100}
           className="px-4 h-14 rounded-lg borderBlack "
@@ -68,6 +69,7 @@ export default function Contact() {
           type="email"
           name="email"
           placeholder="Your email"
+          aria-label="Your email"
           required
           maxLength={100}
           className="px-4 h-14 rounded-lg borderBlack "
@@ -76,6 +78,7 @@ export default function Contact() {
         <textarea
           name="message"
           placeholder="Your message"
+          aria-label="Your message"
           required
           maxLength={500}
           className="h-52 rounded-lg borderBlack my-3 p-4 "
