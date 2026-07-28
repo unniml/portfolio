@@ -1,3 +1,5 @@
+export const revalidate = 3600
+
 import About from "@/components/about";
 import Intro from "@/components/intro";
 import SectionDivider from "@/components/section-divider";
