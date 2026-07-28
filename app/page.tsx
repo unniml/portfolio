@@ -7,10 +7,14 @@ import Projects from "./projects";
 import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
+import Faq from "@/components/faq";
+import { faqData } from "@/lib/faq-data";
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Person",
+  "@graph": [
+    {
+      "@type": "Person",
   name: "Unnikrishnan",
   jobTitle: "Full Stack WordPress Developer",
   url: "https://unnikrishnantech.com",
@@ -29,6 +33,19 @@ const jsonLd = {
     "WooCommerce",
     "JavaScript",
   ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: faqData.map((item) => ({
+        "@type": "Question",
+        name: item.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.answer,
+        },
+      })),
+    },
+  ],
 };
 
 export default function Home() {
@@ -44,6 +61,7 @@ export default function Home() {
       <Projects />
       <Skills />
       <Experience />
+      <Faq />
       <Contact />
     </main>
   );
