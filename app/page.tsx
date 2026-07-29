@@ -15,7 +15,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-  name: "Unnikrishnan",
+  name: "M L Unnikrishnan Lenin",
   jobTitle: "Full Stack WordPress Developer",
   url: "https://unnikrishnantech.com",
   sameAs: [

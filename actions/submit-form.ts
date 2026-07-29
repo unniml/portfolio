@@ -48,7 +48,7 @@ export async function submitForm(
   // Send email
 
   const res = await resend.emails.send({
-    from: "Unnikrishnan Portfolio <onboarding@resend.dev>",
+    from: "M L Unnikrishnan Lenin Portfolio <onboarding@resend.dev>",
     to: "unniml@yahoo.com",
     replyTo: email,
     subject: "New message from contact form",

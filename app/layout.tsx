@@ -18,21 +18,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Unnikrishnan | Full Stack WordPress Developer",
+  title: "M L Unnikrishnan Lenin | Full Stack WordPress Developer",
   description:
     "Full Stack WordPress Developer with 25+ years of experience in custom WordPress, headless WordPress, Next.js, TypeScript, and Tailwind CSS. Based in Kochi, India.",
   openGraph: {
-    title: "Unnikrishnan — Full Stack WordPress Developer",
+    title: "M L Unnikrishnan Lenin — Full Stack WordPress Developer",
     description:
       "Full Stack WordPress Developer with 25+ years experience building fast, scalable websites and web applications.",
     url: "https://unnikrishnantech.com",
-    siteName: "Unnikrishnan Portfolio",
+    siteName: "M L Unnikrishnan Lenin Portfolio",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Unnikrishnan — Full Stack WordPress Developer",
+    title: "M L Unnikrishnan Lenin — Full Stack WordPress Developer",
     description:
       "Full Stack WordPress Developer with 25+ years experience building fast, scalable websites and web applications.",
   },

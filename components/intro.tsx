@@ -38,7 +38,7 @@ export default function Intro() {
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm <span className='font-bold'>Unnikrishnan</span> — a <span className='font-bold'>Full Stack WordPress Developer</span> with <span className='font-bold'>25+ years</span> of web development experience. I build fast, scalable, and maintainable websites using <span className='font-bold'>WordPress, Next.js, TypeScript, and Tailwind CSS</span>. I specialize in custom WordPress development, headless WordPress architectures, and modern frontend experiences that are responsive, accessible, and built for long-term growth.
+        Hi, I'm <span className='font-bold'>M L Unnikrishnan Lenin</span> — a <span className='font-bold'>Full Stack WordPress Developer</span> with <span className='font-bold'>25+ years</span> of web development experience. I build fast, scalable, and maintainable websites using <span className='font-bold'>WordPress, Next.js, TypeScript, and Tailwind CSS</span>. I specialize in custom WordPress development, headless WordPress architectures, and modern frontend experiences that are responsive, accessible, and built for long-term growth.
       </motion.p>
 
       <motion.div className='flex flex-col items-center justify-center gap-4 sm:flex-row'
