@@ -8,6 +8,7 @@ import indianMetalImg from "@/public/indian-metal-exchange.png";
 import ekathraImg from "@/public/ekathra-experiences.png";
 import futureImg from "@/public/future-outdoor-newzealand.png";
 import medconnectImg from "@/public/medconnect-telemedicine.png";
+import dibizImg from "@/public/dibiz-global.png";
 
 export const links = [
   {
@@ -91,6 +92,14 @@ export const projectsData = [
     tags: ["Wordpress", "PHP", "Javascript", "ACFPro", "WooCommerce"],
     imageUrl: futureImg,
     websiteUrl: "https://futureoutdoor.co.nz/",
+  },
+  {
+    title: "DIBIZ",
+    description:
+      "Developed and maintained a business platform serving the food and manufacturing sector using a headless WordPress approach.",
+    tags: ["React", "Next.js", "Wordpress", "PHP", "ACFPro", "WPGraphQL"],
+    imageUrl: dibizImg,
+    websiteUrl: "https://dibizglobal.com/",
   },
   {
     title: "MedConnect - Telemedicine Platform",
